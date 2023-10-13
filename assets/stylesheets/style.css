@@ -1,0 +1,30 @@
+ul{
+    margin: 0;
+    list-style-type: none;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+}
+
+header nav ul li a{
+    text-transform: capitalize;
+    display: block;
+    padding: 22px 8px;
+    color: white;
+    font-weight: bold;
+} 
+header nav ul li span{
+    text-transform: uppercase;
+}
+.banner{
+    width: 100%;
+    height: 100vh;
+    background: url("../images/bmw_neue-klasse_home-stage_teaser_16to9.webp");
+    background-size: 100% 100%;
+    position: absolute;
+    top: 0;
+    z-index: -100;
+    /* this property is used to move the element backward */
+}
